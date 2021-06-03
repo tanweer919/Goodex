@@ -454,11 +454,7 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: #30bab6;
-  background: -webkit-linear-gradient(top, #009efd, #2af598);
-  background: -o-linear-gradient(top, #009efd, #2af598);
-  background: -moz-linear-gradient(top, #009efd, #2af598);
-  background: linear-gradient(top, #009efd, #2af598);
+  background: #000;
   opacity: 0.8;
 }
 
@@ -871,4 +867,7 @@ Primary use:
   .logo-container {
     padding-bottom: 50px;
   }
+}
+.theme-color {
+  color: #000 !important;
 }
